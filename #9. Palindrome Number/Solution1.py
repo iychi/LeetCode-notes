@@ -1,5 +1,6 @@
+# convert x to string: time: O(n)  space:O(n)
+
 def isPalindrome(x: int) -> bool:
-    # convert x to string
     return str(x) == str(x)[::-1]
 
 

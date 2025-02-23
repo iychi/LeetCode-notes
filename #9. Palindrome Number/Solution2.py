@@ -1,4 +1,4 @@
-# not converting to string: time: O(n)  space:O(n)
+# not converting to string: time: O(log(n))  space:O(1)
 def isPalindrome(x: int) -> bool:
     # false: negative number
     if x < 0 or (x != 0 and x % 10 == 0):

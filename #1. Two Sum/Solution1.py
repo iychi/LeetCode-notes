@@ -1,10 +1,9 @@
-def twoSum(nums: list[int], target: int) -> list[int]:
-    
+# brute force: time: O(n^2)  space:O(1)
+def twoSum(nums: list[int], target: int) -> list[int]:    
     # edge case
     if not nums:
         return []
-    
-    # brute force: time: O(n^2)  space:O(1)
+
     # iterate each number in nums and check every number after nums[i]
     for i in range(len(nums)):
         for j in range(i+1, len(nums)):
