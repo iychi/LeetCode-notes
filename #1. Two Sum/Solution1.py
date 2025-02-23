@@ -13,9 +13,9 @@ def twoSum(nums: list[int], target: int) -> list[int]:
                 return [i, j]
 
 
-n1, t1 = [2,7,11,15], 9
-n2, t2 = [3,2,4], 6
-n3, t3 = [3,3], 6
+n1, t1 = [2,7,11,15], 9  # [0,1]
+n2, t2 = [3,2,4], 6  # [1,2]
+n3, t3 = [3,3], 6  # [0,1]
 
 print(twoSum(n1,t1))
 print(twoSum(n2,t2))
